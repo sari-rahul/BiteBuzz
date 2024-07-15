@@ -20,7 +20,7 @@ const FoodDisplay = ({category}) => {
                     price={item.price}
                     image={item.image}/>
                 }
-                
+                return null;    
             })}
         </div>
     </div>
