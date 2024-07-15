@@ -46,6 +46,10 @@
     background-color: grey;
     border: none;
 }
+.footer-logo{
+    margin-left: -16px;
+}
+
 @media (max-width:750px) {
     .footer-content{
         display: flex;
