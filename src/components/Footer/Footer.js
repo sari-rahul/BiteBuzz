@@ -16,18 +16,25 @@ const Footer = () => {
                    sanctus est Lorem ipsum dolor sit amet.
                 </p>
                 <div className="footer-social-icons">
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.twitter_icon} alt="" />
-                    <img src={assets.linkedin_icon} alt="" />
+                    <a href="https://www.facebook.com/"  target="_blank" rel="noopener noreferrer">
+                        <img src={assets.facebook_icon} alt="Facebook"/>
+                    </a>
+                    <a href="https://twitter.com/"  target="_blank" rel="noopener noreferrer">
+                        <img src={assets.twitter_icon} alt="Twitter" />
+                    </a>
+                    <a href="https://www.linkedin.com/"  target="_blank" rel="noopener noreferrer">
+                        <img src={assets.linkedin_icon} alt="LinkedIn" />
+                    </a>
                 </div>
+
             </div>
             <div className='footer-content-center'>
                 <h2>COMPANY</h2>
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Delivery</li>
-                    <li>Privacy Policy</li>
+                    <li><a href="#navbar">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li><a href="#privacy-policy">Privacy Policy</a></li>
                 </ul>
             </div>
             <div className='footer-content-right'>
